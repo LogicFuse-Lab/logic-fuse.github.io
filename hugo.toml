@@ -1,0 +1,41 @@
+baseURL = 'https://blueforge.github.io/logic-fuse/'
+locale = 'en-us'
+title = 'logic-fuse'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  env = 'production'
+  title = 'logic-fuse'
+  description = 'logic-fuse blog'
+  author = 'Blue Forge'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+    Title = "Welcome to logic-fuse"
+    Content = "Thoughts, engineering notes, and deep dives."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
