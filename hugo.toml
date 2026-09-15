@@ -1,4 +1,4 @@
-baseURL = 'https://blueforge.github.io/logic-fuse/'
+baseURL = 'https://logicfuse-lab.github.io/logic-fuse.github.io/'
 locale = 'en-us'
 title = 'logic-fuse'
 theme = 'PaperMod'
